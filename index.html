@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+        integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/css/animation.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body onload="preLoad()">
+    <!-- <div id="loading">
+    </div> -->
+    <section>
+        <nav class="navbar navbar-expand-lg navbar-light bg-primary" id="navbar">
+            <div class="container-fluid">
+                <a class="navbar-brand fs-2 text-light" href="#">Bhishaj</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav  mb-2 mb-lg-0 ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about-section">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skills-section">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services-section">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#testimonial-section">Testimonials</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact-section">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <section class="home-section" id="home">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 text-box welcomeText">
+                    <h1 class="text-warning fs-1 ">Hi,</h1>
+                    <h2 class="fs-1 text-primary"><span class="auto-input "></span></h2>
+                    <p class="1h-base mt-2">
+                        "This is Bhishaj Kumar
+                        Sharma.I'm a web developer and UI Designer. You can reach out to me if you need any help."</p>
+                    <a href="#" class="btn btn-warning text-light">Download CV <i
+                            class="fa-solid fa-cloud-arrow-down"></i></a>
+                </div>
+                <div class="col-sm-6">
+                    <div class="img-container m-3">
+                        <img src="/img/webDev.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about-container" id="about-section">
+        <div class="container">
+            <h1 class="fs-1 section-head">About</h1>
+            <hr>
+            <div class="row row-pad justify-content-center align-item-center bg-light rounded">
+                <div class="col-sm-4 text-center py-5" data-aos="fade-right">
+                    <img src="/img/my-image.jpg" alt="" class="img-fluid"
+                        style="height:300px;box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;">
+                </div>
+                <div class="col-sm-6 text-box" data-aos="fade-left">
+                    <p class="about-p 1h-base fs-5 text-wrap bg-white p-3 rounded">"Hi My name is Bhishaj Kumar Sharma
+                        .I am a web developer and a UI designer.I studies in Government Polytechnic Kharswan in Computer
+                        Engineering branch.My goal is to become a Professional web developer and to work for google.I am
+                        also a gamer."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="skills-section">
+        <div class="container">
+            <h1 class="section-head text-center">My Skills</h1>
+            <hr>
+            <div class="row justify-content-center" style="padding: 30px;">
+                <div class="col-sm-9">
+                    <label for="exampleFormControlInput1" class="form-label">HTML5</label>
+                    <div class="progress  mb-4">
+                        <div class="progress-bar progress-bar-striped bg-danger progress-bar-animated"
+                            role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">95%</div>
+                    </div>
+                    <label for="exampleFormControlInput1" class="form-label">CSS3</label>
+                    <div class="progress mb-4">
+                        <div class="progress-bar progress-bar-striped bg-primary progress-bar-animated"
+                            role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">70%</div>
+                    </div>
+                    <label for="exampleFormControlInput1" class="form-label">JAVASCRIPT</label>
+                    <div class="progress mb-4">
+                        <div class="progress-bar progress-bar-striped bg-warning progress-bar-animated"
+                            role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">65%</div>
+                    </div>
+                    <label for="exampleFormControlInput1" class="form-label">BOOTSTRAP 5</label>
+                    <div class="progress mb-4">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated " role="progressbar"
+                            style="background-color: #6f42c1;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                            85%</div>
+                    </div>
+                    <label for="exampleFormControlInput1" class="form-label">JAVA</label>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped bg-info progress-bar-animated" role="progressbar"
+                            style="width: 80%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">80%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="my-5" id="services-section">
+        <div class="container">
+            <h1 class=" fs-1 section-head text-center">Services</h1>
+            <hr>
+            <div class="row justify-content-between my-5">
+                <div class="col-sm-3" data-aos="fade-up-right" data-aos-duration="1000">
+                    <div class="card">
+                        <img src="/img/programming.png" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <div class="card-title">Web Development</div>
+                            <p class="card-text text-wrap">I will love to make website for you within a limited time.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="card ">
+                        <img src="/img/ux.png" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <div class="card-title">Web Designing</div>
+                            <p class="card-text text-wrap">I can make designs for your website which will make your
+                                website more beautiful.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3" data-aos="fade-up-left" data-aos-duration="1000">
+                    <div class="card">
+                        <img src="/img/blogging.png" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <div class="card-title">Content Writing</div>
+                            <p class="card-text text-wrap">Will love to write something for you or your business.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="projects-container mb-5 mt-4" id="projects">
+        <div class="container">
+            <h1 class="section-head">Projects</h1>
+            <hr>
+            <div class="row justify-content-center pt-5">
+                <div class="card mb-3 col-sm-7 project-card bg-light" data-aos="fade-right">
+                    <div class="row g-0">
+                        <div class="col-md-4 project-img">
+                            <a href="" target="_blank"><img src="/img/form_validation.jpeg"
+                                    class="img-fluid rounded-start" alt="..."></a>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Form validation</h5>
+                                <hr>
+                                <p class="card-text project-txt">This is a simple non responsive validation form which
+                                    only checks the validation doesn't store anything.
+                                    <a href="#" class="btn btn-info" target="_blank">View</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3 col-sm-7 project-card bg-light" data-aos="fade-left">
+                    <div class="row g-0">
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Temperature Converter</h5>
+                                <hr>
+                                <p class="card-text project-txt">This converter only converts temperature from degree to
+                                    celsius and vice-versa.
+                                    <a href="https://bktemperatureconverter.netlify.app/" class="btn btn-info"
+                                        target="_blank">View</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 project-img">
+                            <a href="https://bktemperatureconverter.netlify.app/" target="_blank"><img
+                                    src="/img/temperature_converter.jpeg" class="img-fluid rounded-start"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3 col-sm-7 project-card bg-light" data-aos="fade-right">
+                    <div class="row g-0">
+                        <div class="col-md-4 project-img">
+                            <a href="https://bkstopwatch.netlify.app/" target="_blank"><img src="/img/stopwatch.jpeg"
+                                    class="img-fluid rounded-start" alt="..."></a>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Stopwatch</h5>
+                                <hr>
+                                <p class="card-text project-txt">This stopwatch runs really very well but it is non
+                                    responsive.
+                                    <a href="https://bkstopwatch.netlify.app/" class="btn btn-info"
+                                        target="_blank">View</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3 col-sm-7 project-card bg-light" data-aos="fade-left">
+                    <div class="row g-0">
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Word Counter</h5>
+                                <hr>
+                                <p class="card-text project-txt">This word counter scounts word and characters
+                                    easily.You should try it.
+                                    <a href="#" class="btn btn-info" target="_blank">View</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 project-img">
+                            <a href="" target="_blank"><img src="/img/word_counter.jpeg" class="img-fluid rounded-start"
+                                    alt="..."></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="testimonial-section">
+        <div class="container">
+            <h1 class="section-head fs-1">Testimonials</h1>
+            <hr>
+            <div class="container bg-light rounded" data-aos="zoom-in">
+                <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="col-sm-8 mx-auto">
+                        <div class="carousel-inner text-center text-white py-5">
+                            <div class="carousel-item active" data-bs-interval="10000">
+                                <div class="user-photo">
+                                    <img src="/img/Arijit_singh.jpg" class="img-fluid" alt="testimonial slider">
+                                </div>
+                                <div class="slider-caption mt-3">
+                                    <p class="text-wrap px-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        Quas voluptate id atque cumque error quae reprehenderit animi quod rem
+                                        laudantium, fugit corporis ipsam officiis modi esse recusandae.</p>
+                                    <figcaption class="blockquote-footer mt-3 fs-5"><cite>Arijit Singh</cite>
+                                    </figcaption>
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="10000">
+                                <div class="user-photo ">
+                                    <img src="/img/salman_khan.jpg" class="img-fluid" alt="testimonial slider">
+                                </div>
+                                <div class="slider-caption mt-3">
+                                    <p class=" text-wrap px-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Distinctio deleniti id fugiat velit voluptatem, minima, assumenda animi officia
+                                        amet aspernatur saepe quas explicabo enim aut ipsum asperiores.</p>
+                                    <figcaption class="blockquote-footer mt-3  fs-5"><cite>Salman Khan</cite>
+                                    </figcaption>
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="10000">
+                                <div class="user-photo ">
+                                    <img src="/img/elon.jpeg" class="img-fluid" alt="testimonial slider">
+                                </div>
+                                <div class="slider-caption mt-3">
+                                    <p class="text-wrap px-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        Voluptatibus veniam ducimus, debitis sapiente quisquam possimus optio reiciendis
+                                        facere ullam nulla recusandae quidem sunt, consequatur odit veritatis cum!</p>
+                                    <figcaption class="blockquote-footer mt-3 fs-5"><cite>Elon Musk</cite></figcaption>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                        data-bs-slide="prev" style="visibility: hidden;">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                        data-bs-slide="next" style="visibility: hidden;">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact-section mt-5" id="contact-section">
+        <div class="container my-5">
+            <h1 class="fs-1 section-head text-center">Contact Me</h1>
+            <hr>
+            <div class="row align-item-center" style="flex-wrap: wrap-reverse;">
+                <div class="col-sm-6 text-box mt-5" data-aos="fade-right">
+                    <img src="/img/undraw-contact.svg" alt="" class="img-fluid ">
+                </div>
+                <div class="col-sm-6 my-3" data-aos="zoom-in">
+                    <form action="form.php" method="post" class="bg-primary px-3 py-5 rounded" netlify>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label text-white">Name</label>
+                            <input type="text" class="form-control" id="exampleFormControlInput1" name="name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label text-white">Email address</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="name@example.com" name="email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label text-white">Comment</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                name="textArea"></textarea>
+                        </div>
+                        <div class="d-grid gap-2">
+                            <button class="btn btn-warning text-white" type="submit">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container-fluid p-3 bg-primary">
+            <div class="row">
+                <div class="col-sm-4 footerlogo mt-sm-3">
+                    <a class="navbar-brand fs-2 text-light " href="#">Bhishaj</a>
+                </div>
+                <div class="col-sm-4 py-2 text-white text-center mt-sm-4">
+                    <span>©Copyright 2022.All rights reserved.</span>
+                </div>
+                <div class="col-sm-4 ">
+                    <div class="social-icons text-center py-1">
+                        <a href="https://www.facebook.com/bhishaj.krsharma" class="text-white"><i
+                                class="fa-brands fa-facebook"></i></a>
+                        <a href="https://github.com/Bhishaj" class="text-white"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.instagram.com/iambhishaj/?fbclid=IwAR1VfTNM2kYLh0oehQRcmF6oCITq3rZZVK3plRdFc4fTQTgu4NUgQpY7Zbw"
+                            class="text-white"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="" class=" text-white"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                    <div class="my-details text-center text-white">
+                        <span><i class="fa-solid fa-envelope"></i> bhishajkrsharma99@gmail.com</span>
+                        <div><i class="fa-solid fa-phone"></i> 6203746013</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/index.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

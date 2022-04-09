@@ -1,0 +1,59 @@
+
+.progress-1{
+    animation: progress-1 1s forwards linear ;
+}
+.progress-2{
+    animation: progress-2 1s forwards linear ;
+}
+.progress-3{
+    animation: progress-3 1s forwards linear;
+}
+.progress-4{
+    animation: progress-4 1s forwards linear;
+}
+.progress-5{
+    animation: progress-5 1s forwards linear ;
+}
+@keyframes progress-1{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 95%;
+    }
+}
+@keyframes progress-2{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 70%;
+    }
+}
+@keyframes progress-3{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 65%;
+    }
+}
+@keyframes progress-4{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 85%;
+    }
+}
+@keyframes progress-5{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 80%;
+    }
+}
+
+
+   
